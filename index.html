@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 22</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body class="font-sans text-[#333333] antialiased">
+
+  <!-- start navbar section -->
+  <nav class="absolute top-0 start-0 w-full z-30 py-3 bg-transparent text-white">
+    <div class="container mx-auto px-4 flex items-center justify-between flex-nowrap w-[90%]">
+      <a class="me-2 md:me-10 flex-shrink-0" href="#">
+        <img src="src/media/mad.png" alt="Madrasty Logo" class="h-12">
+      </a>
+
+      <div class="flex items-center justify-between w-full">
+        <ul class="flex flex-row mx-auto mb-0 gap-2 sm:gap-4 text-center">
+          <li>
+            <a class="block font-medium px-1 sm:px-3 text-xs sm:text-sm text-white hover:text-gray-200" aria-current="page" href="#">Home</a>
+          </li>
+          <li>
+            <a class="block font-medium px-1 sm:px-3 text-xs sm:text-sm text-white/80 hover:text-white" href="#">About</a>
+          </li>
+          <li>
+            <a class="block font-medium px-1 sm:px-3 text-xs sm:text-sm text-white/80 hover:text-white" href="#">Affairs</a>
+          </li>
+          <li>
+            <a class="block font-medium px-1 sm:px-3 text-xs sm:text-sm text-white/80 hover:text-white" href="#">Subject</a>
+          </li>
+        </ul>
+
+        <div class="flex justify-center">
+          <button class="bg-red-600 hover:bg-red-700 text-white px-2 sm:px-3 py-1 text-xs sm:text-sm rounded border-0 whitespace-nowrap transition-colors" type="button">
+            Log out
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar section -->
+
+  <!-- start header home section -->
+  <header class="hero-header relative flex items-center min-h-[520px] pt-20">
+    <div class="container mx-auto px-4 pt-12 mt-4">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-2/3 lg:w-5/12 px-4">
+          <div class="bg-brand-overlay text-white p-6 rounded-3xl max-w-[380px]">
+            <h2 class="text-[2.1rem] leading-[1.35] mb-0 font-normal text-white">
+              Always laugh<br>
+              when you can,<br>
+              it is free<br>
+              medicine
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header home section -->
+
+  <!-- start school clinic section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h3 class="clinic-main-title relative inline-block text-[1.8rem] text-[#333333] font-normal pb-2">
+          School clinic
+        </h3>
+      </div>
+
+      <div class="flex flex-wrap items-center -mx-4 gap-y-6">
+        <div class="w-full lg:w-1/2 px-4 text-center">
+          <img src="src/media/compo.png" alt="School Clinic Services" class="max-w-full h-auto inline-block">
+        </div>
+
+        <div class="w-full lg:w-1/2 px-4">
+          <h4 class="text-brand-teal text-[1.5rem] font-medium mb-3">
+            The school clinic services
+          </h4>
+          <p class="text-gray-500 text-[0.95rem] leading-relaxed mb-0">
+            Conducting periodic checks for students. Implementing vaccination programs to prevent diseases, according to the instructions of the Ministry of Health. Follow-up of sick cases and contact with parents to attend if the case requires. Providing a healthy environment in the school community.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end school clinic section -->
+
+  <!-- start touch section -->
+  <section class="bg-brand-teal-light py-12 text-center text-white">
+    <div class="container mx-auto px-4 py-2">
+      <h3 class="font-comic text-[2rem] mb-12 font-normal">Don't Hestegate to be in Touch</h3>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden flex flex-col h-full text-start">
+          <div class="p-2 text-center">
+            <img src="src/media/s1.png" class="w-full h-[140px] object-cover rounded-xl" alt="First Aids">
+          </div>
+          <div class="p-4 pt-1 flex-1">
+            <h6 class="text-brand-teal font-semibold mb-2">First Aids</h6>
+            <p class="text-gray-500 text-xs leading-normal mb-0">Providing general safety and first aid supplies. Conducting the necessary first aid and referring emergency cases to hospitals when necessary.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden flex flex-col h-full text-start">
+          <div class="p-2 text-center">
+            <img src="src/media/s2.png" class="w-full h-[140px] object-cover rounded-xl" alt="Health education">
+          </div>
+          <div class="p-4 pt-1 flex-1">
+            <h6 class="text-brand-teal font-semibold mb-2">Health education</h6>
+            <p class="text-gray-500 text-xs leading-normal mb-0">Conducting awareness and educational lectures on public health and the importance of eating healthy foods.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden flex flex-col h-full text-start">
+          <div class="p-2 text-center">
+            <img src="src/media/s3.png" class="w-full h-[140px] object-cover rounded-xl" alt="Dental Health and Safety">
+          </div>
+          <div class="p-4 pt-1 flex-1">
+            <h6 class="text-brand-teal font-semibold mb-2">Dental Health and Safety</h6>
+            <p class="text-gray-500 text-xs leading-normal mb-0">Do a regular dental checkup. Spreading awareness and promoting healthy behavior among students of basic grades.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden flex flex-col h-full text-start">
+          <div class="p-2 text-center">
+            <img src="src/media/s4.png" class="w-full h-[140px] object-cover rounded-xl" alt="Student insurance">
+          </div>
+          <div class="p-4 pt-1 flex-1">
+            <h6 class="text-brand-teal font-semibold mb-2">Student insurance</h6>
+            <p class="text-gray-500 text-xs leading-normal mb-0">The doctor or nurse handles simple ambulance cases, while the student is transferred to the hospital if necessary within the coverage program.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end touch section -->
+
+  <!-- start doctors list section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4 my-2">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center justify-items-center">
+        <div>
+          <img src="src/media/Group 182.png" alt="DR: Ali Omar" class="max-w-full h-auto">
+        </div>
+        <div>
+          <img src="src/media/Group 182.png" alt="DR: Ali Omar" class="max-w-full h-auto">
+        </div>
+        <div>
+          <img src="src/media/Group 182.png" alt="DR: Ali Omar" class="max-w-full h-auto">
+        </div>
+        <div>
+          <img src="src/media/Group 182.png" alt="DR: Ali Omar" class="max-w-full h-auto">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end doctors list section -->
+
+  <!-- start footer section -->
+  <footer class="bg-brand-teal-dark text-white pt-12 pb-8 rounded-t-[50px]">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 text-center md:text-start">
+
+        <div class="md:col-span-4">
+          <h4 class="font-bold text-xl mb-3">Madrasty</h4>
+          <p class="text-xs text-white/50 leading-relaxed">The Best collection of international schools For All Student In All different Ages From six years to 15 years</p>
+        </div>
+
+        <div class="col-span-1 md:col-span-2 md:col-start-6">
+          <h6 class="font-semibold mb-3 text-sm">Student</h6>
+          <ul class="list-none p-0 text-xs flex flex-col gap-2 text-white/50">
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Result</a></li>
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Exams</a></li>
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Quizzes</a></li>
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Courses</a></li>
+          </ul>
+        </div>
+
+        <div class="col-span-1 md:col-span-2">
+          <h6 class="font-semibold mb-3 text-sm">News</h6>
+          <ul class="list-none p-0 text-xs flex flex-col gap-2 text-white/50">
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Uniform</a></li>
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Chaprons</a></li>
+            <li><a href="#" class="text-white/50 hover:text-white transition-colors">Tables</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-3">
+          <h6 class="font-semibold mb-3 text-sm">Contact</h6>
+          <ul class="list-none p-0 text-xs flex flex-col gap-2 text-white/50">
+            <li>2033500394</li>
+            <li>Or32@Yahoo.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-white/20 pt-3 mt-8 flex flex-col md:flex-row justify-between items-center gap-2">
+        <p class="text-xs text-white/50 mb-0">Reserved writes For Cerative Team</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer section -->
+
+</body>
+</html>
